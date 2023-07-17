@@ -48,7 +48,7 @@
         align-items: center;
         justify-content: space-between;
     }
-    
+
     .icon span{
         width: 50px;
         height: 50px;
@@ -138,6 +138,9 @@
     .future-text p{
         width: 300px;
          text-align: center;
+    }
+    .future-img img{
+        width: 350px;
     }
 }
 
