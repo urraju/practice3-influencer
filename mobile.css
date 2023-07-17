@@ -1,0 +1,145 @@
+
+
+/* MOBILE RESPONSIVE START IN CSS  */
+
+@media screen and (max-width: 576px) {
+    
+    /* header section start  */
+
+    .header{
+        width: 100%;
+        padding: 30px;
+        
+
+    }
+    nav{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        
+
+    }
+    nav li{
+        width: 300px;
+        background: #000;
+        margin-top: 15px;
+        text-align: center;
+        padding: 5px;
+        border-radius: 5px;
+        margin-right: 0px;
+         
+    }
+
+    nav a{
+       color: white;
+    }
+    .icon{
+        width: 300px;
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .icon span{
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        background: #E02C6D ;
+        border-radius: 50%;
+        color: rgb(255, 255, 255);
+        margin-right: 0px;
+        
+    }
+
+    /* banner-secion start  */
+
+    main{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .banner-section{
+        padding: 30px;
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column-reverse;
+        margin-top: 170px;
+    }
+    .banner-text{
+        width: 300px;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .banner-text h1{
+        font-size: 3rem;
+        letter-spacing: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .banner-img img{
+        width: 100%;
+    }
+
+    /* logo section  */
+
+    .logo-section{
+        width: 400px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        margin: 0 auto;
+        padding: 20px;
+        margin-top: 170px;
+        text-align: center;
+       
+    }
+    .logo img{
+        width: 60px;
+        
+    }
+
+    /* COLLECTION SECTION  */
+
+    .collection-section{
+        width: 100%;
+        padding: 30px;
+    }
+    .collection-content{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    /* future-section  */
+
+    .future-section{
+        min-width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+    .future-text{
+        width: 300px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .future-text h1{
+        font-size: 1.5rem;
+        width: 300px;
+        text-align: center;
+    }
+    .future-text p{
+        width: 300px;
+         text-align: center;
+    }
+}
+
+
+/* FINISHED  */

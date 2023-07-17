@@ -25,12 +25,14 @@ header{
      max-width: 1800px;
      margin: 0 auto;
      padding: 30px;
+     
 
 }
 nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
+     
     
 }
 nav > ul {
@@ -242,3 +244,40 @@ main{
     margin-left: 9px;
 }
  
+
+/* FOOTER SECTION CSS START */
+
+.footer-section{
+    width: 100%;
+    background-color: #001e2f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    margin-top: 100px;
+}
+.footer-content{
+    color: white;
+    text-align: center;
+    padding: 20px;
+   
+}
+.footer-content strong{
+    display: block;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+}
+.footer-content span{
+    font-size: 1.2rem;
+    margin-right: 20px;
+}
+.footer-content span:hover{
+    color: #E02C6D;
+    transition: all .4s;
+}
+
+/* FINISHED  */
